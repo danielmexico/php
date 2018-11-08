@@ -1,0 +1,37 @@
+/* HEADER --*/
+.navbar {
+	margin-bottom: 0;
+}
+
+.jumbotron {
+	background :#1B97CD ;
+	color: #fff;
+	padding: 20px 0;
+}
+
+/* post --*/
+.main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.post {
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999;
+}
+.post .post-title a  {
+  color: #1B97CD;
+}
+.post .thumb {
+
+	margin-right: 10px;
+	width: 20%;
+}
+
+.post .thumb img{
+	width: 20%%;
+}
+.post .contenedores-botones {
+	width: 100%;
+}

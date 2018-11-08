@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+		<title>Viernes T</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet"  href="css/bootstrap.min.css">
+	<link rel="stylesheet"  href="css/estilo.css">
+
+		
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-inverse navbar-static-top" role="navigation"> <!-- el inverse es para que cambien los colores y el static top es para que el menu se mantenga en la parte de arriba de la pagina -->
+
+   <div class="container">
+    <div class="navbar-header">
+    <!-- Esto es para hacer el boton que se muestra cuando el dispositivo es mediano-->
+     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion"  aria-expended="false" aria-controls="navbar">
+      <span class="sr-only"> Desplegar / Ocultar Menu</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+     </button>
+     <a href="#" class="navbar-brand">Viernes T</a> <!-- Este es el titulo que va en el menu-->
+    </div>
+
+    <!-- Aqui se iniciara el menu-->
+
+    <div class="collapse navbar-collapse" id="navegacion"> <!-- El id que se agrega aqui debe de llevar el mismo nombre que se ingreso en el data-target que va en el boton que se muestra en dispositivos medianos-->
+
+     <ul class="nav navbar-nav">
+      
+      <li class="active"><a href="#">Inicio</a></li>
+      <li><a href="#">Formas de pago</a></li>
+      <li><a href="#">Nosotros</a></li>
+
+      <li class="dropdown">
+
+       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expended="false">
+       Nuestros Servicios  <span class="caret"></span>
+       </a>
+
+       <ul class="dropdown-menu" role="menu">
+        <li><a href="#">Todos los cursos</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="#">Curso a</a></li>
+        <li><a href="#">Curso b</a></li>
+        <li><a href="#">Curso C</a></li>
+       </ul>
+
+      </li>
+
+      <li><a href="#">Contacto</a></li>
+     </ul> 
+
+     <form action=" " class="navbar-form navbar-right" role="search"> <!-- aqui va php-->
+      <div class="form-group">
+       <input type="text" class="form-control" placeholder="Buscar">
+      </div>
+      <button type="submit" class="btn btn-primary">
+       <span class="glyphicon glyphicon-search"></span>
+
+      </button>
+
+     </form>
+
+    </div>
+   </div>
+  </nav>
+ </header>
+
+ <section class="jumbotron">
+  <div class="container">
+   <h1 class="titulo1">Bienvenido a Viernes T</h1>
+   <p>La inteligencia la creas tú</p>
+  </div>
+</section>
+
+<section class="main container">
+	<div class="row" >
+			<section class="posts col-md-9">
+				<div class="miga-de-pan"></div>
+					<ol class="breadcrumb">	
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">Todos los cursos</a></li>
+						<li><a href="#">Curso a</a></li>
+						<li><a href="#">Curso b</a></li>
+						<li class="active">Curso c </li>
+					</ol>
+				</div>
+
+				<article class="post clearfix"> 
+				<a href="#" class="thumb pull-left">
+					<img class ="img-thumbnail" src="img/img1.png" alt="">
+				</a>
+				<h2 class="post-title"></h2>
+				<a href="#">Todos los cursos</a>
+				<p><span class="post-fecha"> 25/10/2018</span> por <span class="post-autor"> <a href="#"> Los escolares </a></span></p>
+				<p class="post-contenido text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam dolore asperiores accusantium, qui totam distinctio nostrum! Eos eum odio officiis iusto error aspernatur, debitis nemo, quo unde, deserunt laborum corporis.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet impedit neque facere quasi, eligendi repellendus eaque earum necessitatibus sint, quas, ullam, minus at rem exercitationem aliquam itaque ut odio commodi.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ducimus, nostrum rem tempore consequatur! Hic quas eum, ab, voluptatibus, adipisci dolore cum laudantium ex rem cupiditate sit, ad a magnam.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta fuga ad, qui placeat beatae labore voluptatibus quasi eum, dolorum corporis cum alias accusamus vero atque rerum. Deleniti accusantium similique consequatur?</p>
+
+				<div class="contenedores-botones pull-left">
+				<a href="#" class="btn btn-primary"> Leer Mas</a>
+				<a href="#" class="btn btn-success"> Comentarios <span class="badge">20 </span></a></div>
+				</article>
+					<article class="post clearfix"> 
+					<a href="#" class="thumb pull-left">
+					<img class ="img-thumbnail" src="img/img2.png" alt="">
+					</a>
+					<h2 class="post-title"></h2>
+					<a href="#">Curso a</a>
+					<p><span class="post-fecha"> 25/10/2018</span> por <span class="post-autor"> <a href="#"> Los escolares </a></span></p>
+					<p class="post-contenido text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam dolore asperiores accusantium, qui totam distinctio nostrum! Eos eum odio officiis iusto error aspernatur, debitis nemo, quo unde, deserunt laborum corporis.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet impedit neque facere quasi, eligendi repellendus eaque earum necessitatibus sint, quas, ullam, minus at rem exercitationem aliquam itaque ut odio commodi.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ducimus, nostrum rem tempore consequatur! Hic quas eum, ab, voluptatibus, adipisci dolore cum laudantium ex rem cupiditate sit, ad a magnam.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta fuga ad, qui placeat beatae labore voluptatibus quasi eum, dolorum corporis cum alias accusamus vero atque rerum. Deleniti accusantium similique consequatur?</p>
+
+					<div class="contenedores-botones pull-left">
+					<a href="#" class="btn btn-primary"> Leer Mas</a>
+					<a href="#" class="btn btn-success"> Comentarios <span class="badge">41 </span></a></div>
+					</article>
+					<!--finalizamos una estructura de otro curso -->
+					<!--iniciamos una estructura de otro curso -->
+					<article class="post clearfix"> 
+					<a href="#" class="thumb pull-left">
+						<img class ="img-thumbnail" src="img/img3.png" alt="">
+					</a>
+					<h2 class="post-title"></h2>
+					<a href="#">Curso b</a>
+					<p><span class="post-fecha"> 25/10/2018</span> por <span class="post-autor"> <a href="#"> Los escolares </a></span></p>
+					<p class="post-contenido text-justify"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam dolore asperiores accusantium, qui totam distinctio nostrum! Eos eum odio officiis iusto error aspernatur, debitis nemo, quo unde, deserunt laborum corporis.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet impedit neque facere quasi, eligendi repellendus eaque earum necessitatibus sint, quas, ullam, minus at rem exercitationem aliquam itaque ut odio commodi.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ducimus, nostrum rem tempore consequatur! Hic quas eum, ab, voluptatibus, adipisci dolore cum laudantium ex rem cupiditate sit, ad a magnam.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta fuga ad, qui placeat beatae labore voluptatibus quasi eum, dolorum corporis cum alias accusamus vero atque rerum. Deleniti accusantium similique consequatur?</p>
+
+					<div class="contenedores-botones pull-left">
+					<a href="#" class="btn btn-primary"> Leer Mas</a>
+					<a href="#" class="btn btn-success"> Comentarios <span class="badge">10 </span></a></div>
+					</article> <nav>
+							<div class="center-block">
+								<ul class="pagination">
+									<li class="disable"><a href="#"> &laquao; <span class="sr-only">Anterior</span> </a> </li>
+									<li class="active" ><a href="#">1</a> </li>
+									<li><a href="#">1</a></li>
+									<li><a href="#">2</a></li>
+									<li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+									<li><a href="#">5</a></li>
+									<li> <a href="#">&raquo; <span class="sr-only">Siguente </span></a></li>
+								</ul>
+							</div>
+						</nav> </section>
+								
+			<aside class="col-md-3 hidden-xs hidden-sm" >
+					<h4>Categorias</h4>
+					<div class="list-group">
+						<a href="#" class="list-group-item active">Categoria:</a>
+						<a href="#" class="list-group-item">¡categoria1</a>
+						<a href="#" class="list-group-item">¡categoria2</a>
+						<a href="#" class="list-group-item">¡categoria3</a>
+						<a href="#" class="list-group-item">¡categoria4</a>
+						<a href="#" class="list-group-item">¡categoria5</a>
+						<a href="#" class="list-group-item">¡categoria6</a>
+					</div>
+					<h4>Cursos Más Recientes</h4>
+					<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading"> Podemos agregarle mas texto o cualquer cosa </h4> <p class="list-group-item-text">y aqui se agrega otro texto</p>
+					</a>
+
+					<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading"> Podemos agregarle mas texto o cualquer cosa </h4> <p class="list-group-item-text">y aqui se agrega otro texto</p>
+					</a>
+					<a href="#" class="list-group-item">
+					<h4 class="list-group-item-heading"> Podemos agregarle mas texto o cualquer cosa </h4> <p class="list-group-item-text">y aqui se agrega otro texto</p>
+					</a>
+				</aside>
+					
+	</div>
+</section>
+	
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script src="js/jquery.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+</body>
+</html>	
